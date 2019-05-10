@@ -1,0 +1,1 @@
+angular components used in external plain html and js
