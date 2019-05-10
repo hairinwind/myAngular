@@ -6,10 +6,12 @@
 /out-tsc
 
 # dependencies
-/node_modules
+node_modules/
 
 # IDEs and editors
-/.idea
+.idea/
+.metadata/
+.mvn/
 .project
 .classpath
 .c9/
@@ -37,12 +39,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-angularComponent
-lazy-loading
-myAngularApp
-ngrxFire
-pet-tags-ngrx
-plainJS
-platform
-sample-ng2-mvc
