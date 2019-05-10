@@ -1,0 +1,14 @@
+<h2>keystroke</h2>
+<input type='text' placeholder="Search" [formControl]="searchFormControl">
+<div>
+  <h2>search keywords: the value is set before sent to remote service</h2>
+  <div *ngFor="let searchKeyword of searchKeywords">
+      {{searchKeyword}}
+  </div>
+</div>
+<div>
+  <h2>search result</h2>
+  <div>
+    {{searchResult | async}}
+  </div>
+</div>
