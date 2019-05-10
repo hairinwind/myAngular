@@ -1,0 +1,13 @@
+<p>
+  my-async works!
+</p>
+<p>
+    data size: {{(data|async)?.length}}
+</p>
+<div *ngFor='let item of data | async'>
+    <p>{{item.userId}}</p>
+    <p>{{item.id}}</p>
+    <p>{{item.title}}</p>
+    <p>{{item.body}}</p>
+    <hr/>
+</div>
