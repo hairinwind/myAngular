@@ -1,0 +1,18 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" },
+      { "id": 2, "title": "abc-server", "author": "abc_typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }, 
+    "fighters": [
+        { "name": "Conor McGregor", "wins": 21, "losses": 3 },
+        { "name": "Tony Ferguson", "wins": 23, "losses": 3 },
+        { "name": "Max Holloway", "wins": 19, "losses": 3 },
+        { "name": "Jon Jones", "wins": 22, "losses": 1 },
+        { "name": "Daniel Cormier", "wins": 21, "losses": 1 },
+        { "name": "Brock Lesnar", "wins": 8, "losses": 1 }
+    ]
+  }
